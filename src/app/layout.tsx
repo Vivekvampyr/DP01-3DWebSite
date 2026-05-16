@@ -16,6 +16,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <div className="cinematic-grain"></div>
+        <div className="scanlines"></div>
         <SmoothScroll>
           {children}
         </SmoothScroll>
